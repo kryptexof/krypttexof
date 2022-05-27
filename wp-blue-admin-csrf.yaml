@@ -4,10 +4,9 @@ info:
   name: WordPress Plugin Blue Admin 21.06.01 - Cross-Site Request Forgery (CSRF)
   severity: high
   description: Cross-Site Request Forgery (CSRF) is an attack that forces authenticated users to submit a request to a Web application against which they are currently authenticated.
-  cve : CVE-2021-24581
   reference:
     - https://www.exploit-db.com/exploits/50925
-  tags: wordpress,listing,plugin
+  tags: wordpress,listing,plugin,cve2021
 
 requests:
   - method: GET
