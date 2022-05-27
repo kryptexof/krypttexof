@@ -7,8 +7,12 @@ info:
   description: Cross-Site Request Forgery (CSRF) is an attack that forces authenticated users to submit a request to a Web application against which they are currently authenticated.
   reference:
     - https://www.exploit-db.com/exploits/50925
-  tags: wordpress,listing,plugin
-
+    - https://www.cvedetails.com/cve/CVE-2021-24581/
+  tags: wordpress,listing,plugin,cve,cve2022
+  classification:
+    cvss-metrics: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+    cvss-score: 8.80
+    cve-id: CVE-2021-24581
 requests:
   - method: GET
     path:
