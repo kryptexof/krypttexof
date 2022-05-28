@@ -11,7 +11,7 @@ info:
   tags: wordpress,listing,plugin,cve,cve2022
   classification:
     cvss-metrics: AV:N/AC:M/Au:N/C:P/I:P/A:P
-    cvss-score: 8.80
+    cvss-score: 6.80
     cve-id: CVE-2021-24581
 requests:
   - method: GET
